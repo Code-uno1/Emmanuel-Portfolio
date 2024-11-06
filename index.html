@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Mugo's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm Emmanuel Mugo, a programmer.</p>
+</header>
+
+<div class="container">
+    <section class="section about">
+        <h2>About Me</h2>
+        <p>I'm a programmer with experience in Python, web development, linux, and machine learning.</p>
+    </section>
+
+    <section class="section projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h2>ShineMate Laundry Website</h2>
+            <p>ShineMate is a laundry service website I built to showcase my web development skills.</p>
+            <button onclick="toggleDescription('shineMate')">Show More</button>
+            <p id="shineMate" class="project-description">This project was built using HTML, CSS, and JavaScript, aiming to simplify laundry booking for users.</p>
+        </div>
+
+        <div class="project">
+            <h2>Machine Learning Model</h2>
+            <p>I've built several machine learning models, including a recommendation system using Python.</p>
+            <button onclick="toggleDescription('mlModel')">Show More</button>
+            <p id="mlModel" class="project-description">This model predicts user preferences based on historical data and preferences.</p>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:emmanuel.mugo@example.com">emmanuelkahugu@gmail.com</a></p>
+    </section>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
